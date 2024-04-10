@@ -14,5 +14,11 @@ Flask will give you 2 ip adresses. 127.0.0.1:8080 is simply the localhost, this 
 The second ip is the one you'll wanna connect to.
 
 
+# Huh? Connect to it? How?
+Also simple! just open up your browser (any browser with basic html/js support is supported) and type in the full ip (including the port)
+example ip: xxx.xxx.xxx.xxx:8080
+(NOTE: Yeah, the port will always be 8080. Dont ask.)
+
+
 # Where do i get it?
 If you used your 3 barely surviving braincells you'd know how. If you really dont know, ask chatgpt.
