@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PyNAS</title>
+</head>
+<body>
+    <h1>PyNAS</h1>
+    
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <button type="submit">Upload</button>
+    </form>
+
+    <h2>Uploaded Files</h2>
+    <ul>
+        {% for file in files %}
+            <li>{{ file }} <a href="/files/{{ file }}" target="_blank">Download</a> <a href="/delete_file/{{ file }}" onclick="return confirm('Are you sure you want to delete {{ file }}?')">Delete</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
