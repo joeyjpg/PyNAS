@@ -22,3 +22,7 @@ example ip: xxx.xxx.xxx.xxx:8080
 
 # Where do i get it?
 If you used your 3 barely surviving braincells you'd know how. If you really dont know, ask chatgpt.
+
+
+# I have a different question, where do i ask?
+For any questions regarding the program, you can reach out to me at joeypersonal0305@gmail.com.
